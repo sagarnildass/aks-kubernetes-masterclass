@@ -41,10 +41,10 @@
 
 ```
 # Template
-mysql --host=mydemoserver.mysql.database.azure.com --user=myadmin@mydemoserver -p
+mysql -host mydemoserver.mysql.database.azure.com -u myuser -p
 
 # 
-mysql --host=akswebappdb.mysql.database.azure.com --user=dbadmin@akswebappdb -p
+mysql -h akswebappdbartelus.mysql.database.azure.com -u dbadmin -p
 ```
 
 ## Step-04: Create Kubernetes externalName service Manifest and Deploy
